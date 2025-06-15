@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ydol.in Services Circle</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      font-family: 'Segoe UI', sans-serif;
+    }
+        .circle-container {
+      position: relative;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      margin: auto;
+      background: #6535eb;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .circle-container {
+      position: relative;
+      width: 700px;
+      height: 700px;
+      margin: 70px auto;
+    }
+
+    .center-circle {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      background: #490f8b;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #f4f4f8;
+      text-align: center;
+      line-height: 180px;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 0 25px rgba(10, 54, 136, 0.2);
+    }
+
+    .service-circle {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      background: white;
+      border-radius: 50%;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: transform 0.3s;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .service-circle:hover {
+      transform: scale(1.1);
+    }
+
+    .service-circle h3 {
+      font-size: 18px;
+      color: #6a1b9a;
+      margin-bottom: 10px;
+    }
+
+    .service-circle p {
+      font-size: 13px;
+      color: #333;
+      line-height: 1.3em;
+    }
+
+    .service1 { top: 0; left: 50%; transform: translate(-50%, 0); }
+    .service2 { top: 20%; left: 85%; transform: translate(-50%, -50%); }
+    .service3 { top: 65%; left: 85%; transform: translate(-50%, -50%); }
+    .service4 { bottom: 0; left: 50%; transform: translate(-50%, 0); }
+    .service5 { top: 65%; left: 15%; transform: translate(-50%, -50%); }
+    .service6 { top: 20%; left: 15%; transform: translate(-50%, -50%); }
+  </style>
+</head>
+<body>
+
+<div class="circle-container">
+  <div class="center-circle">
+    Ydol.in
+  </div>
+
+  <!-- Service 1 -->
+  <div class="service-circle service1">
+    <h3>Residential</h3>
+    <p> Buy And ent, Flats & Apartments. Choose from 1BHK, 2BHK, 3BHK</p>
+    <!-- Add icon/image here -->
+  </div>
+
+  <!-- Service 2 -->
+  <div class="service-circle service2">
+    <h3>Commercial</h3>
+    <p>Office spaces, hospitality units, lease options</p>
+  </div>
+
+  <!-- Service 3 -->
+  <div class="service-circle service3">
+    <h3>Rentals</h3>
+    <p>Rental Flats, Space,PG,Co-living Hostel,Products Furniture</p>
+  </div>
+
+  <!-- Service 4 -->
+  <div class="service-circle service4">
+    <h3>Documentation</h3>
+    <p>Legal & registration services with expert help</p>
+  </div>
+
+  <!-- Service 5 -->
+  <div class="service-circle service5">
+    <h3>Event Setup</h3>
+    <p>Wedding & event arrangements with full planning</p>
+  </div>
+
+  <!-- Service 6 -->
+  <div class="service-circle service6">
+    <h3>Post Property/Business</h3>
+    <p>List your property/Business quickly with ease & Grow</p>
+  </div>
+</div>
+
+</body>
+</html>
